@@ -23,7 +23,7 @@ The folders have the following contents -
 
 ### The following image shows the web application's appearance and functionality:
 
-![screenshot](https://github.com/rashida53/horiseon-refactor/blob/main/rashida-portfolio-sample.png?raw=true)
+![screenshot](https://github.com/rashida53/rashida-portfolio/blob/main/rashida-portfolio-sample.png?raw=true)
 
 
 ## Deployment
