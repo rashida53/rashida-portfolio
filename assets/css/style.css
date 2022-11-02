@@ -11,144 +11,158 @@ body {
 }
 
 header {
-    text-align: left;
-    background: #16A085;
-    color: black;
-  }
-
-  h1 {
-    background-color: #003322;
-    display: inline-block;
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    color:#66ffcc;
-  }
-
-  nav {
-    float: right;
-    font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
+  text-align: left;
+  background: #16A085;
+  color: black;
 }
-  
-  nav a,
-  .contact-tags {
-    color: #003322;
-    padding: 25px 20px 10px 10px;
-    font-size: 20px;
-    text-decoration: underline;
+
+h1 {
+  background-color: #003322;
+  display: inline-block;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  color: #66ffcc;
+}
+
+nav {
+  float: right;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a,
+.contact-tags {
+  color: #003322;
+  padding: 25px 20px 10px 10px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+  justify-content: right;
+  display: inline-block;
+}
+
+nav a:hover,
+.contact-tags:hover {
+  color: #66ffcc;
+}
+
+.contact-tags {
+  padding: 55px 35px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.subtitle-img {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.container {
+  position: relative;
+}
+
+.subtitle-text-block {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  right: 5%;
+  background-color: #16A085;
+  color: #003322;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+aside {
+  flex: 1;
+  color: #003322;
+  font-size: 35px;
+  padding: 5px 25px 5px 5px;
+  text-align: right;
+  border-right: solid #003322 5px;
+}
+
+.column-2 {
+  flex: 4;
+  background-color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.card {
+  border: solid #16A085;
+  border-width: 10px;
+  flex: 0 0 400px;
+}
+
+.card a {
+  text-align: center;
+  color: #003322;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card img:hover {
+  opacity: .5;
+}
+
+
+.horiseon-card {
+  position: relative;
+}
+
+.horiseon-txt {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  color: #003322;
+  background-color: #16A085;
+  padding: 2%;
+  text-decoration: none;
+}
+
+.foodle-txt {
+  position: relative;
+  top: 3%;
+  left: 5%;
+  color: #003322;
+  background-color: #16A085;
+  padding: 2%;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  section,
+  nav {
+    flex-direction: column;
+  }
+
+  aside {
     text-align: center;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  nav a:hover, .contact-tags:hover {
-    color: #66ffcc;
-  }
-
-  .contact-tags {
-    padding: 55px 35px;
-    font-size: 30px;
-    text-decoration: underline;
-  }
-
-  .subtitle-img {
-    width: 100%;
-    display: flex;
-    align-items: stretch;
-  }
-
-  .container {
-    position: relative;
+    border-right: none;
+    border-bottom: solid #003322 5px;
   }
 
   .subtitle-text-block {
-    display: flex;
     position: absolute;
-    top: 70%;
-    right: 5%;
-    background-color: #16A085;
-    color: #003322;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .box {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5%;
-  }
-  
-  aside {
-    flex: 1;
-    color: #003322;
-    font-size: 35px;
-    padding: 5px 25px 5px 5px;
-    text-align: right;
-    border-right: solid #003322 5px;
-  }
-
-  .column-2 {
-    flex: 4;
-    background-color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 30px;
-  }
-
-  .card {
-    border: solid #16A085;
-    border-width: 10px;
-    flex: 0 0 400px;
-  }
-
-  .card a {
-    text-align: center;
-    color: #003322;
-  }
-  
-  .card img {
-    width: 100%;
-  }
-
-  .card img:hover {
-    opacity: .5;
-  }
-
-
-  .horiseon-card {
-    position: relative;
-  }
-
-  .horiseon-txt {
-    position: absolute;
-    top: 80%;
-    left: 10%;
-    color: #003322;
-    background-color: #16A085;
-    padding: 2%;
-    text-decoration: none;
-  }
-
-  @media screen and (max-width: 768px) {
-    section,
-    nav {
-      flex-direction: column;
-    }
-    aside {
-      text-align: center;
-      border-right: none;
-      border-bottom: solid #003322 5px;
-    }
-    .subtitle-text-block {
-      position: absolute;
     top: 50%;
     right: 25%;
-    }
-
   }
+
+}
