@@ -146,6 +146,16 @@ aside {
   text-decoration: none;
 }
 
+.everrands-txt {
+  position: relative;
+  bottom: 10%;
+  left: 5%;
+  color: #003322;
+  background-color: #16A085;
+  padding: 2%;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
 
   section,
